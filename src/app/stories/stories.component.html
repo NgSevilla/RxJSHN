@@ -3,7 +3,7 @@
     <!-- You can add a loading indicator here if you want to :) -->
   </div>
   <div *ngIf="items">
-    <ol start="{{ listStart }}">
+    <ol start="{{ listStart }}" class="mTop">
       <li *ngFor="let item of items" class="post">
         <item class="item-block" [item]="item"></item>
       </li>

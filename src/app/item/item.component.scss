@@ -79,3 +79,29 @@ p {
   .item-details {
     padding: 10px;
   }
+
+  .circle{
+    background-color:#666;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 40px;
+    margin-top:10px;
+    font-size: 12px;
+    color:#fff;
+  }
+  .fL{
+    position: absolute;
+    right:0;
+    top:0;
+  }
+  .circle a{
+    margin-top:8px;
+    color:#fff;
+    display: block;
+    font-size:11px;
+  }
+  .active{
+    color:#FF7416;
+  }

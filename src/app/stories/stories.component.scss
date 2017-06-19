@@ -11,8 +11,11 @@ a {
 }
 
 ol {
-  padding: 0 40px;
-  margin: 0;
+  // padding: 0 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 14px;
+  margin-right: 24px;
 
   @media #{$mobile-only} {
     box-sizing: border-box;
@@ -43,11 +46,14 @@ ol {
   padding: 8px 0;
   z-index: 0;
 }
+.mTop{
+  margin-top:85px;
+}
 
 .post {
-  padding: 10px 0 10px 5px;
+  padding:15px 0 15px 5px;
   transition: background-color 0.2s ease;
-  border-bottom: 1px solid #CECECB;
+  border-bottom: 1px solid #ddd;
 
   .itemNum {
     color: #696969;

@@ -3,7 +3,7 @@
 $mobile-only: "only screen and (max-width : 768px)";
 
 body {
-  margin-bottom: 0;
+  margin:0;
 
   @media #{$mobile-only} {
     margin: 0;
@@ -11,11 +11,11 @@ body {
 }
 
 #wrapper {
-  background-color: whitesmoke;
+  background-color: #fff;
   position: relative;
-  width: 85%;
+  width: 100%;
   min-height: 80px;
-  margin: 0 auto;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   height: 100%;
